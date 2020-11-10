@@ -507,10 +507,6 @@ section .location {
   width: 16em;
 }
 
-#skills .item .keywords {
-  width: 15em;
-}
-
 /* Skill chart */
 
 .level {
@@ -746,6 +742,9 @@ section .location {
   #skills .item {
     width: calc(100% / 3);
     padding: 0;
+  }
+  #skills .item:last-of-type {
+    width: calc((100% / 3) * 2)
   }
   .highlights {
     margin: 0.5em 0 0 0;
