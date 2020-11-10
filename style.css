@@ -740,11 +740,11 @@ section .location {
     font-weight: 600;
   }
   #skills .item {
-    width: calc(100% / 3);
+    width: 16em;
     padding: 0;
   }
   #skills .item:last-of-type {
-    width: calc((100% / 3) * 2)
+    width: 32em;
   }
   .highlights {
     margin: 0.5em 0 0 0;
