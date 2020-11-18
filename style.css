@@ -506,6 +506,9 @@ section .location {
 #skills .item {
   width: 16em;
 }
+#skills .item:last-of-type {
+  width: 48em;
+}
 
 /* Skill chart */
 
@@ -744,7 +747,7 @@ section .location {
     padding: 0;
   }
   #skills .item:last-of-type {
-    width: 32em;
+    width: 48em;
   }
   .highlights {
     margin: 0.5em 0 0 0;
