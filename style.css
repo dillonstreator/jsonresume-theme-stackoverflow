@@ -504,10 +504,10 @@ section .location {
 }
 
 #skills .item {
-  width: 16em;
+  width: 32%;
 }
 #skills .item:last-of-type {
-  width: 48em;
+  width: 100%;
 }
 
 /* Skill chart */
@@ -741,13 +741,6 @@ section .location {
   ul.courses::before {
     font-size: 0.8rem;
     font-weight: 600;
-  }
-  #skills .item {
-    width: 16em;
-    padding: 0;
-  }
-  #skills .item:last-of-type {
-    width: 48em;
   }
   .highlights {
     margin: 0.5em 0 0 0;
