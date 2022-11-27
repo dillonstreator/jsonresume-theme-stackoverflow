@@ -22,7 +22,13 @@
 				{{#if position}}
 				<div class="position">{{position}}</div>
 				{{/if}}
-				<div class="company">{{name}}</div>
+				<div class="company">
+					{{#if url}}
+					<a target="_blank" href="{{url}}">{{name}}</a>
+					{{else}}
+					{{name}}
+					{{/if}}
+				</div>
 				<div class="date">
 					{{#if startDate}}
 					<span class="startDate">{{MY startDate}}</span>
@@ -42,10 +48,7 @@
 				{{location}}
 			</span>
 			{{/if}}
-			{{#if url}}
-			<span class="website">
-				<a target="_blank" href="{{url}}">{{url}}</a>
-			</span> {{/if}} {{#if keywords.length}}
+			{{#if keywords.length}}
 			<ul class="keywords">
 				{{#each keywords}}
 				<li>{{.}}</li>
